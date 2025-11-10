@@ -74,6 +74,13 @@ img {
 
 .sign-btn {
   max-width: 250px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.sign-btn:hover,
+.sign-btn:focus-visible {
+  transform: translateY(-3px);
+  opacity: 0.9;
 }
 
 @media all and (max-width: 500px) {
