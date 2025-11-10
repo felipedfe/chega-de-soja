@@ -6,6 +6,8 @@
 
 body {
   background-color: #000;
+  font-family: "balto", sans-serif;
+  font-weight: 400;
 }
 
 main {
@@ -24,6 +26,10 @@ p {
   line-height: 1.4;
   font-size: 18px;
   text-align: center;
+}
+
+li {
+  font-size: 18px;
 }
 
 img {
@@ -130,9 +136,12 @@ img {
 .objectives-list li {
   background-image: url('./assets/estrela.png');
   background-repeat: no-repeat;
-  background-position: 0 6px; /* ajusta verticalmente */
-  background-size: 18px; /* tamanho do ícone */
-  padding-left: 30px; /* espaço pro ícone */
+  background-position: 0 6px;
+  /* ajusta verticalmente */
+  background-size: 18px;
+  /* tamanho do ícone */
+  padding-left: 30px;
+  /* espaço pro ícone */
   text-align: center;
   line-height: 1.4;
 }
@@ -148,7 +157,7 @@ img {
 .bottom-block {
   position: relative;
   background-color: #0f3820;
-  padding: 8rem 1rem 3rem 1rem;
+  padding: 8rem 1rem 5rem 1rem;
 }
 
 @media all and (max-width: 768px) {
