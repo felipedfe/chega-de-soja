@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(22px, 3vw, 26px);
+}
+
+p {
+  line-height: 1.4;
+  font-size: 18px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.main-block {
+  position: relative;
+  /* min-height: 100vh; */
+  padding: 3rem 1rem 3rem 1rem;
+  background-color: #eee0c5;
+}
+
+.main-block--bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-block--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.paragraph-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.sign-btn {
+  max-width: 250px;
+}
+
+@media all and (max-width: 500px) {
+  .sign-btn {
+    width: 170px;
+  }
+}
+
+.main-bloxk-img {
+  max-width: 480px;
+}
+
+.img-wrapper {
+  /* height: 100%; */
+  /* position: relative; */
+}
+
+.left-img {
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+  /* transform: translateY(50px); */
+}
+
+.right-img {
+  transform: translateY(35px);
+}
+
+/* OBJECTIVES */
+.objectives-block {
+  background-color: #856d36;
+  padding: 0 1rem 0 1rem;
+}
+
+.objectives-block--content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 900px;
+  margin: auto;
+  color: #eee0c5;
+}
+
+.objectives-wrapper {
+  padding: 1.7rem 0;
+}
+
+.objectives-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.2rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.objectives-list li {
+  background-image: url('./assets/estrela.png');
+  background-repeat: no-repeat;
+  background-position: 0 6px; /* ajusta verticalmente */
+  background-size: 18px; /* tamanho do ícone */
+  padding-left: 30px; /* espaço pro ícone */
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media all and (max-width: 768px) {
+  .objectives-img {
+    display: none;
+  }
+}
+
+
+/* BOTTOM BLOCK */
+.bottom-block {
+  position: relative;
+  background-color: #0f3820;
+  padding: 8rem 1rem 3rem 1rem;
+}
+
+@media all and (max-width: 768px) {
+  .bottom-block {
+    padding-top: 5rem;
+  }
+}
+
+.bottom-block--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  max-width: 500px;
+  margin: auto;
+  color: #eee0c5;
+}
+
+.bottom-block--bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media all and (max-width: 500px) {
+  .logo-2 {
+    max-width: 300px;
+    margin: auto;
+  }
+}
