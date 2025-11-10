@@ -11,7 +11,7 @@ body {
 }
 
 main {
-  max-width: 1300px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -157,13 +157,17 @@ img {
 .bottom-block {
   position: relative;
   background-color: #0f3820;
-  padding: 8rem 1rem 5rem 1rem;
+  padding: 7rem 1rem 5rem 1rem;
 }
 
 @media all and (max-width: 768px) {
   .bottom-block {
     padding-top: 5rem;
   }
+
+  /* .bottom-block--bg-img {
+    width: 130%;
+  } */
 }
 
 .bottom-block--content {
@@ -177,7 +181,8 @@ img {
   color: #eee0c5;
 }
 
-.bottom-block--bg-img {
+.bottom-block--bg-img,
+.bottom-block--bg-img-mobile {
   position: absolute;
   top: 0;
   left: 0;
@@ -187,5 +192,17 @@ img {
   .logo-2 {
     max-width: 300px;
     margin: auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .bottom-block--bg-img-mobile {
+    display: none;
+  }
+}
+
+@media all and (min-width: 769px) {
+  .bottom-block--bg-img {
+    display: none;
   }
 }
